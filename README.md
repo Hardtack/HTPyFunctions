@@ -1,5 +1,5 @@
-HTPyFunctions --- Python-like functions in Objective-C
-======================================================
+HTPyFunctions --- Python-like functions for Objective-C
+=======================================================
 
 HTPyFunctions provides fuctions like some built in functions in Python. 
 
