@@ -1,14 +1,14 @@
 //
-//  HTPyBuiltinsTests.m
-//  HTPyBuiltinsTests
+//  HTPyFunctionsTests.m
+//  HTPyFunctionsTests
 //
 //  Created by 최건우 on 12. 11. 14..
 //  Copyright (c) 2012년 최건우. All rights reserved.
 //
 
-#import "HTPyBuiltinsTests.h"
+#import "HTPyFunctionsTests.h"
 
-@implementation HTPyBuiltinsTests
+@implementation HTPyFunctionsTests
 
 - (void)setUp
 {
@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in HTPyBuiltinsTests");
+    STFail(@"Unit tests are not implemented yet in HTPyFunctionsTests");
 }
 
 @end

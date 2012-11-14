@@ -8,10 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		230E97DF1653AF640091CEE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230E97DE1653AF640091CEE8 /* Foundation.framework */; };
-		230E97E41653AF640091CEE8 /* HTPyBuiltins.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 230E97E31653AF640091CEE8 /* HTPyBuiltins.h */; };
-		230E97E61653AF640091CEE8 /* HTPyBuiltins.m in Sources */ = {isa = PBXBuildFile; fileRef = 230E97E51653AF640091CEE8 /* HTPyBuiltins.m */; };
+		230E97E41653AF640091CEE8 /* HTPyFunctions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 230E97E31653AF640091CEE8 /* HTPyFunctions.h */; };
+		230E97E61653AF640091CEE8 /* HTPyFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 230E97E51653AF640091CEE8 /* HTPyFunctions.m */; };
 		230E97EE1653AF640091CEE8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230E97ED1653AF640091CEE8 /* SenTestingKit.framework */; };
-		230E97F01653AF640091CEE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230E97EF1653AF640091CEE8 /* UIKit.framework */; };
 		230E97F11653AF640091CEE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230E97DE1653AF640091CEE8 /* Foundation.framework */; };
 		230E97F41653AF640091CEE8 /* libHTPyFunctions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 230E97DB1653AF640091CEE8 /* libHTPyFunctions.a */; };
 		230E97FA1653AF640091CEE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 230E97F81653AF640091CEE8 /* InfoPlist.strings */; };
@@ -35,7 +34,7 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				230E97E41653AF640091CEE8 /* HTPyBuiltins.h in CopyFiles */,
+				230E97E41653AF640091CEE8 /* HTPyFunctions.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,11 +44,10 @@
 		230E97DB1653AF640091CEE8 /* libHTPyFunctions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHTPyFunctions.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		230E97DE1653AF640091CEE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		230E97E21653AF640091CEE8 /* HTPyFunctions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HTPyFunctions-Prefix.pch"; sourceTree = "<group>"; };
-		230E97E31653AF640091CEE8 /* HTPyBuiltins.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTPyBuiltins.h; sourceTree = "<group>"; };
-		230E97E51653AF640091CEE8 /* HTPyBuiltins.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTPyBuiltins.m; sourceTree = "<group>"; };
+		230E97E31653AF640091CEE8 /* HTPyFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTPyFunctions.h; sourceTree = "<group>"; };
+		230E97E51653AF640091CEE8 /* HTPyFunctions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTPyFunctions.m; sourceTree = "<group>"; };
 		230E97EC1653AF640091CEE8 /* HTPyFunctionsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTPyFunctionsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		230E97ED1653AF640091CEE8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		230E97EF1653AF640091CEE8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		230E97F71653AF640091CEE8 /* HTPyFunctionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HTPyFunctionsTests-Info.plist"; sourceTree = "<group>"; };
 		230E97F91653AF640091CEE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		230E97FB1653AF640091CEE8 /* HTPyBuiltinsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTPyBuiltinsTests.h; sourceTree = "<group>"; };
@@ -70,7 +68,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				230E97EE1653AF640091CEE8 /* SenTestingKit.framework in Frameworks */,
-				230E97F01653AF640091CEE8 /* UIKit.framework in Frameworks */,
 				230E97F11653AF640091CEE8 /* Foundation.framework in Frameworks */,
 				230E97F41653AF640091CEE8 /* libHTPyFunctions.a in Frameworks */,
 			);
@@ -103,7 +100,6 @@
 			children = (
 				230E97DE1653AF640091CEE8 /* Foundation.framework */,
 				230E97ED1653AF640091CEE8 /* SenTestingKit.framework */,
-				230E97EF1653AF640091CEE8 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,8 +107,8 @@
 		230E97E01653AF640091CEE8 /* HTPyBuiltins */ = {
 			isa = PBXGroup;
 			children = (
-				230E97E31653AF640091CEE8 /* HTPyBuiltins.h */,
-				230E97E51653AF640091CEE8 /* HTPyBuiltins.m */,
+				230E97E31653AF640091CEE8 /* HTPyFunctions.h */,
+				230E97E51653AF640091CEE8 /* HTPyFunctions.m */,
 				230E97E11653AF640091CEE8 /* Supporting Files */,
 			);
 			path = HTPyBuiltins;
@@ -243,7 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				230E97E61653AF640091CEE8 /* HTPyBuiltins.m in Sources */,
+				230E97E61653AF640091CEE8 /* HTPyFunctions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +394,7 @@
 				230E98021653AF640091CEE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		230E98031653AF640091CEE8 /* Build configuration list for PBXNativeTarget "HTPyFunctionsTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +403,7 @@
 				230E98051653AF640091CEE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

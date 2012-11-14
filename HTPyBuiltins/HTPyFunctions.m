@@ -1,12 +1,12 @@
 //
-//  HTPyBuiltins.m
-//  HTPyBuiltins
+//  HTPyFunctions.m
+//  HTPyFunctions
 //
 //  Created by 최건우 on 12. 11. 14..
 //  Copyright (c) 2012년 최건우. All rights reserved.
 //
 
-#import "HTPyBuiltins.h"
+#import "HTPyFunctions.h"
 /* Python-like functions */
 BOOL HTAll(HTIterable iterable){
     for (id element in iterable) {

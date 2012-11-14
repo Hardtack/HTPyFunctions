@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'HTPyBuiltins' target in the 'HTPyBuiltins' project
+// Prefix header for all source files of the 'HTPyFunctions' target in the 'HTPyFunctions' project
 //
 
 #ifdef __OBJC__
