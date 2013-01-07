@@ -82,7 +82,8 @@ HTIterable HTReversed(HTIterable iterable);
  */
 id HTSum(HTIterable iterable);
 /**
- * function like xmap in python
+ * function like extended map in python,
+ * You can stop mapping while execution.
  * Returns YES if it iterated all element in `iterable`
  * You can stop Iteration by returning `NO` in `block`
  */
