@@ -28,7 +28,11 @@ BOOL HTAny(HTIterable iterable){
 BOOL HTBool(id obj){
     if ([obj isKindOfClass:[NSNumber class]]) {
         return [obj boolValue];
-    } else if (obj == nil || [obj isKindOfClass:[NSNull class]]){
+    } else if (obj == nil || [obj isKindOfClass:[NSNull class]]
+               ||([obj isKindOfClass:[NSArray class]] && [obj count] == 0)
+               ||([obj isKindOfClass:[NSString class]] && [obj length] == 0)
+               ||([obj isKindOfClass:[NSDictionary class]] && [obj count] == 0)
+               ){
         return NO;
     }
     return YES;
