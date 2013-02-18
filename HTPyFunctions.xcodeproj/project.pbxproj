@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		230E98591653CEE40091CEE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230E98581653CEE40091CEE8 /* Foundation.framework */; };
+		230E98591653CEE40091CEE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230E98581653CEE40091CEE8 /* Foundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		230E985E1653CEE40091CEE8 /* HTPyFunctions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 230E985D1653CEE40091CEE8 /* HTPyFunctions.h */; };
 		230E98601653CEE40091CEE8 /* HTPyFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 230E985F1653CEE40091CEE8 /* HTPyFunctions.m */; };
 		230E98681653CEE40091CEE8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230E98671653CEE40091CEE8 /* SenTestingKit.framework */; };
@@ -298,7 +298,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -317,7 +317,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -396,6 +396,7 @@
 				230E987C1653CEE40091CEE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		230E987D1653CEE40091CEE8 /* Build configuration list for PBXNativeTarget "HTPyFunctionsTests" */ = {
 			isa = XCConfigurationList;
@@ -404,6 +405,7 @@
 				230E987F1653CEE40091CEE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
