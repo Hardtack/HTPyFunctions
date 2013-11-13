@@ -10,6 +10,8 @@
 
 #define HTIterable id<NSFastEnumeration, NSObject>
 
+#define HTLambda(arg, expr) (id)^(id arg){return expr;}
+
 /**
  * function like all in python
  */
