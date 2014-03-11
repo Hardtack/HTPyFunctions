@@ -10,23 +10,7 @@
 		230E98591653CEE40091CEE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230E98581653CEE40091CEE8 /* Foundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		230E985E1653CEE40091CEE8 /* HTPyFunctions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 230E985D1653CEE40091CEE8 /* HTPyFunctions.h */; };
 		230E98601653CEE40091CEE8 /* HTPyFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 230E985F1653CEE40091CEE8 /* HTPyFunctions.m */; };
-		230E98681653CEE40091CEE8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230E98671653CEE40091CEE8 /* SenTestingKit.framework */; };
-		230E986A1653CEE40091CEE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230E98691653CEE40091CEE8 /* UIKit.framework */; };
-		230E986B1653CEE40091CEE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230E98581653CEE40091CEE8 /* Foundation.framework */; };
-		230E986E1653CEE40091CEE8 /* libHTPyFunctions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 230E98551653CEE40091CEE8 /* libHTPyFunctions.a */; };
-		230E98741653CEE40091CEE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 230E98721653CEE40091CEE8 /* InfoPlist.strings */; };
-		230E98771653CEE40091CEE8 /* HTPyFunctionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 230E98761653CEE40091CEE8 /* HTPyFunctionsTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		230E986C1653CEE40091CEE8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 230E984C1653CEE40091CEE8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 230E98541653CEE40091CEE8;
-			remoteInfo = HTPyFunctions;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		230E98531653CEE40091CEE8 /* CopyFiles */ = {
@@ -47,13 +31,8 @@
 		230E985C1653CEE40091CEE8 /* HTPyFunctions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HTPyFunctions-Prefix.pch"; sourceTree = "<group>"; };
 		230E985D1653CEE40091CEE8 /* HTPyFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTPyFunctions.h; sourceTree = "<group>"; };
 		230E985F1653CEE40091CEE8 /* HTPyFunctions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTPyFunctions.m; sourceTree = "<group>"; };
-		230E98661653CEE40091CEE8 /* HTPyFunctionsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTPyFunctionsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		230E98671653CEE40091CEE8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		230E98691653CEE40091CEE8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		230E98711653CEE40091CEE8 /* HTPyFunctionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HTPyFunctionsTests-Info.plist"; sourceTree = "<group>"; };
-		230E98731653CEE40091CEE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		230E98751653CEE40091CEE8 /* HTPyFunctionsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTPyFunctionsTests.h; sourceTree = "<group>"; };
-		230E98761653CEE40091CEE8 /* HTPyFunctionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTPyFunctionsTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,17 +44,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		230E98621653CEE40091CEE8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				230E98681653CEE40091CEE8 /* SenTestingKit.framework in Frameworks */,
-				230E986A1653CEE40091CEE8 /* UIKit.framework in Frameworks */,
-				230E986B1653CEE40091CEE8 /* Foundation.framework in Frameworks */,
-				230E986E1653CEE40091CEE8 /* libHTPyFunctions.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				230E985A1653CEE40091CEE8 /* HTPyFunctions */,
-				230E986F1653CEE40091CEE8 /* HTPyFunctionsTests */,
 				230E98571653CEE40091CEE8 /* Frameworks */,
 				230E98561653CEE40091CEE8 /* Products */,
 			);
@@ -93,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				230E98551653CEE40091CEE8 /* libHTPyFunctions.a */,
-				230E98661653CEE40091CEE8 /* HTPyFunctionsTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,25 +92,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		230E986F1653CEE40091CEE8 /* HTPyFunctionsTests */ = {
-			isa = PBXGroup;
-			children = (
-				230E98751653CEE40091CEE8 /* HTPyFunctionsTests.h */,
-				230E98761653CEE40091CEE8 /* HTPyFunctionsTests.m */,
-				230E98701653CEE40091CEE8 /* Supporting Files */,
-			);
-			path = HTPyFunctionsTests;
-			sourceTree = "<group>";
-		};
-		230E98701653CEE40091CEE8 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				230E98711653CEE40091CEE8 /* HTPyFunctionsTests-Info.plist */,
-				230E98721653CEE40091CEE8 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,25 +111,6 @@
 			productName = HTPyFunctions;
 			productReference = 230E98551653CEE40091CEE8 /* libHTPyFunctions.a */;
 			productType = "com.apple.product-type.library.static";
-		};
-		230E98651653CEE40091CEE8 /* HTPyFunctionsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 230E987D1653CEE40091CEE8 /* Build configuration list for PBXNativeTarget "HTPyFunctionsTests" */;
-			buildPhases = (
-				230E98611653CEE40091CEE8 /* Sources */,
-				230E98621653CEE40091CEE8 /* Frameworks */,
-				230E98631653CEE40091CEE8 /* Resources */,
-				230E98641653CEE40091CEE8 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				230E986D1653CEE40091CEE8 /* PBXTargetDependency */,
-			);
-			name = HTPyFunctionsTests;
-			productName = HTPyFunctionsTests;
-			productReference = 230E98661653CEE40091CEE8 /* HTPyFunctionsTests.octest */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -206,37 +134,9 @@
 			projectRoot = "";
 			targets = (
 				230E98541653CEE40091CEE8 /* HTPyFunctions */,
-				230E98651653CEE40091CEE8 /* HTPyFunctionsTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		230E98631653CEE40091CEE8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				230E98741653CEE40091CEE8 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		230E98641653CEE40091CEE8 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		230E98511653CEE40091CEE8 /* Sources */ = {
@@ -247,41 +147,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		230E98611653CEE40091CEE8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				230E98771653CEE40091CEE8 /* HTPyFunctionsTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		230E986D1653CEE40091CEE8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 230E98541653CEE40091CEE8 /* HTPyFunctions */;
-			targetProxy = 230E986C1653CEE40091CEE8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		230E98721653CEE40091CEE8 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				230E98731653CEE40091CEE8 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		230E98781653CEE40091CEE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -309,7 +182,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -352,36 +225,6 @@
 			};
 			name = Release;
 		};
-		230E987E1653CEE40091CEE8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HTPyFunctions/HTPyFunctions-Prefix.pch";
-				INFOPLIST_FILE = "HTPyFunctionsTests/HTPyFunctionsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		230E987F1653CEE40091CEE8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HTPyFunctions/HTPyFunctions-Prefix.pch";
-				INFOPLIST_FILE = "HTPyFunctionsTests/HTPyFunctionsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -399,15 +242,6 @@
 			buildConfigurations = (
 				230E987B1653CEE40091CEE8 /* Debug */,
 				230E987C1653CEE40091CEE8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		230E987D1653CEE40091CEE8 /* Build configuration list for PBXNativeTarget "HTPyFunctionsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				230E987E1653CEE40091CEE8 /* Debug */,
-				230E987F1653CEE40091CEE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
